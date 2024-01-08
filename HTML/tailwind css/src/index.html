@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="/dist/output.css" rel="stylesheet" />
+        <!-- <link href="/dist/output.css" rel="stylesheet" /> -->
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="bg-red-700">
+    <body>
         <div>
             <h1 class="text-3xl font-bold underline bg-blue-700">
                 Hello world!
             </h1>
-            <h2 class="bg-neutral-900 text-white">Hello Kaka</h2>
 
             <div
                 class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4"
@@ -27,6 +27,13 @@
                     <p class="text-slate-500">You have a new message!</p>
                 </div>
             </div>
+
+            <button class="bg-sky-500 hover:bg-sky-700">Save changes</button>
+            <button
+                class="py-2 px-4 rounded-md bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
+            >
+                Save changes
+            </button>
         </div>
     </body>
 </html>
